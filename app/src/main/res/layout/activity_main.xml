@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fc12f8"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/notify"
+       android:layout_marginTop="40dp"
+       android:text="Notify Me!"
+       android:textColor="#000"
+       android:background="#0cf465"
+       android:layout_gravity="center"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50sp"
+       android:id="@+id/update"
+       android:text="UPDATE Me!"
+       android:background="#f2d13c"
+       android:textColor="#000"
+       android:layout_gravity="center"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/cancel"
+       android:layout_marginTop="50sp"
+       android:background="#13fafa"
+       android:textColor="#000"
+       android:text="CANCEL Me!"
+       android:layout_gravity="center"/>
+
+</LinearLayout>
